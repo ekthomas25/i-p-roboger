@@ -6,8 +6,10 @@ function beepBoop(number) {
   if (number === 0) {
     numberArray;
   }
+  let numCount = 0
   for (let i = 0; i < number+1; i += 1) {
     numberArray.push(i);
-  } return numberArray;
+  } if (numberArray.includes(1)) {
+    return true;
+  } return false;
 }
-
