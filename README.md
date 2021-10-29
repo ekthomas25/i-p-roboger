@@ -23,3 +23,8 @@ Expected Output: [0, 1]
 Test: "If the inputted value is NaN, it will return NaN"
 Code: beepBoop ("pizza")
 Expected Output: NaN
+
+
+Test: "If the array contains the number 1 it will return true"
+Code: beepBoop (1)
+Expected Output: true
