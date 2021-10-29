@@ -9,5 +9,5 @@ function beepBoop(number) {
   let numCount = 0
   for (let i = 0; i < number+1; i += 1) {
     numberArray.push(i);
-  } return pizza = numberArray.join(" ").split(" ");
+  } return stringArray = numberArray.join(" ").split(" ");
 }
