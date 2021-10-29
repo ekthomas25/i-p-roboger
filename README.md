@@ -2,6 +2,18 @@
 
 #### By _Liz Thomas_
 
+#### _A web application that takes a number from the user and returns a range of numbers starting with 0 to the user inputted number and adds fun words when certain numbers occur._
+
+## Technologies Used
+
+* _HTML_
+* _CSS_
+* _Bootstrap_
+* _JavaScript_
+* _jQuery 3.6.0._
+
+## Description
+
 
 Describe: beepBoop()
 
