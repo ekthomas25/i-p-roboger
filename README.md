@@ -20,3 +20,6 @@ Code:
 beepBoop(1);
 Expected Output: [0, 1]
 
+Test: "If the inputted value is NaN, it will return NaN"
+Code: beepBoop ("pizza")
+Expected Output: NaN
