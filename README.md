@@ -15,3 +15,7 @@ Code:
 beepBoop(1);
 Expected Output: [1]
 
+Test: "It should return an array that increments to 0 when 1 is inputted."
+Code:
+beepBoop(1);
+Expected Output: [1, 0]
