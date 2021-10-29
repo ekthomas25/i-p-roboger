@@ -36,3 +36,8 @@ Expected Output: false
 Test: "If the array contains the number 2 it will return true"
 Code: beepBoop(2);
 Expected Output: true
+
+Test: "It will turn the integer elements into strings"
+Code:
+beepBoop(10);
+Expected Output: ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
