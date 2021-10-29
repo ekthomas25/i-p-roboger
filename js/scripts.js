@@ -9,7 +9,7 @@ function beepBoop(number) {
   let numCount = 0
   for (let i = 0; i < number+1; i += 1) {
     numberArray.push(i);
-  } if (numberArray.includes(1)) {
+  } if (numberArray.includes(1) && numberArray.includes(2)) {
     return true;
-  } return false;
+  } return false
 }
