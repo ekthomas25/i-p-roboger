@@ -32,3 +32,7 @@ Expected Output: true
 Test: "If the array does not contain the number 1 it will return false"
 Code: beepBoop(0);
 Expected Output: false
+
+Test: "If the array contains the number 2 it will return true"
+Code: beepBoop(2);
+Expected Output: true
