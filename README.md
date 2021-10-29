@@ -21,10 +21,14 @@ beepBoop(1);
 Expected Output: [0, 1]
 
 Test: "If the inputted value is NaN, it will return NaN"
-Code: beepBoop ("pizza")
+Code: beepBoop("pizza")
 Expected Output: NaN
 
 
 Test: "If the array contains the number 1 it will return true"
-Code: beepBoop (1)
+Code: beepBoop(1);
 Expected Output: true
+
+Test: "If the array does not contain the number 1 it will return false"
+Code: beepBoop(0);
+Expected Output: false
