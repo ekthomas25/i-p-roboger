@@ -58,3 +58,8 @@ Test: "It replaces any instance of 1 in the array with 'Beep!'."
 Code:
 beepBoop(10);
 Expected Output: ['0', 'Beep!', '2', '3', '4', '5', '6', '7', '8', '9', 'Beep!']
+
+Test: "It replaces any instance of 2 in the array with 'Boop!'."
+Code:
+beepBoop(12);
+Expected Output: ['0', 'Beep!', 'Boop!', '3', '4', '5', '6', '7', '8', '9', 'Beep!', 'Beep!', 'Boop!']
