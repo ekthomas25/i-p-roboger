@@ -68,3 +68,8 @@ Test: "If there is an instance of both 1 and 2, such as 12, it will be replaced 
 Code:
 beepBoop(12);
 Expected Output: ['0', 'Beep!', 'Boop!', '3', '4', '5', '6', '7', '8', '9', 'Beep!', 'Beep!', 'Boop!']
+
+Test: "It replaces any instance of 3 in the array with 'Won't you be my neighbor?'."
+Code:
+beepBoop(13);
+Expected Output: ['0', 'Beep!', 'Boop!', Won't you be my neighbor?', '4', '5', '6', '7', '8', '9', 'Beep!', 'Beep!', 'Boop!', 'Won't you be my neighbor?']
