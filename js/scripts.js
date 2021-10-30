@@ -10,7 +10,9 @@ function beepBoop(number) {
     numberArray.push(i);
   } let stringArray = numberArray.join(" ").split(" ");
   stringArray.forEach(function(element, index) {
-    if (element.includes('1')) {
+    if (element.includes('2') || element.includes('2') && element.includes('1')) {
+      stringArray.splice(index, 1, "Boop!");
+    } else if (element.includes('1')) {
       stringArray.splice(index, 1, "Beep!");
     }
   });
