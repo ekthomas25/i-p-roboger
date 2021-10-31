@@ -13,7 +13,7 @@
 * _jQuery 3.6.0._
 
 ## Description
--This web application is a form that requires a number to be inputted. It takes the number that was inputted and spits out a range that begins at 0 and ends at the number that was submitted. When a number in the range contains a 1, it is replaced with "Beep!". When a number in the range contains a 2, it is replaced with "Boop!", this will override any numbers that also contain the number 1, (ie 12 will be "Boop!", not "Beep!"). When a number in the range contains a 3, it is replaced with "Won't you be my neighbor?", this will override any numbers that also contain either 1 or 2.
+_This web application is a form that requires a number to be inputted. It takes the number that was inputted and spits out a range that begins at 0 and ends at the number that was submitted. When a number in the range contains a 1, it is replaced with "Beep!". When a number in the range contains a 2, it is replaced with "Boop!", this will override any numbers that also contain the number 1, (ie 12 will be "Boop!", not "Beep!"). When a number in the range contains a 3, it is replaced with "Won't you be my neighbor?", this will override any numbers that also contain either 1 or 2._
 
 ## Setup/Installation Requirements
 
