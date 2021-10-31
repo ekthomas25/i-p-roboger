@@ -15,6 +15,10 @@ body {
   background-color: rgb(230, 97, 97);
 }
 
+hr {
+  border: 1px solid crimson;
+}
+
 .container {
   margin-top: 3%;
   padding-top: 3%;
