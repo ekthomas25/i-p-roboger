@@ -126,3 +126,8 @@ Test: "It will return the array as a string separated by spaces."
 Code:
 beepBoop(3);
 Expected Output: "0 Beep! Boop! Won't you be my neighbor?"
+
+Test: "It will tell user to input a positive number if a negative number is inputted."
+Code:
+beepBoop(-2);
+Expected Output: "You need to enter a positive number for this to work :)"
