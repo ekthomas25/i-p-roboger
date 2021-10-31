@@ -18,5 +18,14 @@ function beepBoop(number) {
       stringArray.splice(index, 1, "Beep!");
     }
   });
-    return stringArray;
+  return stringArray;
 }
+
+$(document).ready(function(){
+  $("form#beep-form").submit(function(event){
+    event.preventDefault();
+    const numberInput = parseInt($("#number-input").val());
+    const beepBoops = beepBoop(numberInput);
+    $("#number-range").html(beepBoops);
+  });
+});
