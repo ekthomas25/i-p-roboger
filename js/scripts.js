@@ -1,5 +1,8 @@
 function beepBoop(number) {
   let numberArray = [];
+  if (number < 0) {
+    return "You need to enter a positive number for this to work :)";
+  }
   if (typeof number !== 'number') {
     return NaN;
   }
