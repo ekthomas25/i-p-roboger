@@ -1,0 +1,35 @@
+h1 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: rgb(175, 22, 53);
+}
+
+h2 {
+  font-family: monospace;
+}
+
+h3 {
+  font-family: monospace;
+}
+
+body {
+  background-color: rgb(230, 97, 97);
+}
+
+.container {
+  margin-top: 3%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+  border-radius: 25px;
+  background-color: rgb(170, 231, 255);
+}
+
+.result {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border: 1px solid crimson;
+  border-radius: 25px;
+}
