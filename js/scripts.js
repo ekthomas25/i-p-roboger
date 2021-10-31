@@ -27,5 +27,6 @@ $(document).ready(function(){
     const numberInput = parseInt($("#number-input").val());
     const beepBoops = beepBoop(numberInput);
     $("#number-range").html(beepBoops);
+    $(".result").show();
   });
 });
