@@ -5,10 +5,16 @@ h1 {
 
 h2 {
   font-family: monospace;
+  font-size: 26pt;
+  padding-bottom: 15px;
 }
 
 h3 {
   font-family: monospace;
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -29,7 +35,25 @@ hr {
   background-color: rgb(170, 231, 255);
 }
 
+.form-styles {
+  margin: 3%;
+}
+
+#number-input {
+  width: 75%;
+  margin: auto;
+  display: block;
+}
+
+.btn {
+  width: 30%;
+  font-size: 14pt;
+  margin: auto;
+  display: block;
+}
+
 .result {
+  display: none;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 25px;
