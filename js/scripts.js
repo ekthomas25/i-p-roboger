@@ -18,7 +18,7 @@ function beepBoop(number) {
       stringArray.splice(index, 1, "Beep!");
     }
   });
-  return stringArray;
+  return stringArray.join(" ");
 }
 
 $(document).ready(function(){
